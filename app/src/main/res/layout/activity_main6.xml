@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main6Activity"
+    android:orientation="vertical"
+    android:background="@drawable/back">
+
+    <include
+        layout="@layout/app_bar"
+        android:id="@+id/app_bar"> </include>
+
+    <!--<ImageView-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:src="@drawable/back"-->
+    <!--android:scaleType="centerCrop"-->
+    <!--android:id="@+id/formBack" />-->
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/app_bar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:paddingBottom="20dp"
+        android:paddingTop="20dp"
+        android:text=" Success !!"
+        android:textColor="@color/Black"
+        android:textSize="40px" />
+
+    <ImageView
+        android:id="@+id/imageView03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/app_bar"
+        android:layout_centerHorizontal="true"
+        android:foregroundGravity="center"
+        android:paddingTop="100dp"
+        android:src="@drawable/shape"
+        tools:layout_editor_absoluteX="91dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+
+
+
+
+
+</RelativeLayout>

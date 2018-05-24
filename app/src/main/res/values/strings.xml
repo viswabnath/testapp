@@ -1,0 +1,30 @@
+<resources>
+
+    <string name="app_name"> Benefit Farmer </string>
+    <string name="menu_orders"> Orders </string>
+    <string name="menu_profile"> Profile </string>
+    <string name="menu_Logout"> Logout </string>
+    <string name="menu_settings"> Settings</string>
+
+
+
+    <string-array name="quantity">
+        <item> KG's</item>
+        <item> Quinta </item>
+        <item> Tons</item>
+    </string-array>
+
+    <string-array name="Orders" >
+        <item> Product </item>
+        <item> Product Type </item>
+        <item> Description </item>
+        <item>  Quantity </item>
+        <item> Quantity In  </item>
+        <item> Price </item>
+        <item>  Phone </item>
+        <item> Status </item>
+    </string-array>
+
+
+
+</resources>
