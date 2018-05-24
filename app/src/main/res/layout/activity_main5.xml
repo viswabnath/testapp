@@ -22,13 +22,15 @@
         <ScrollView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@id/formLogo"
+            android:layout_below="@id/app_bar"
             android:id="@+id/scrollView">
 
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:paddingTop="100dp">
+                    android:paddingTop="50dp">
+
+
 
                         <ImageView
                             android:id="@+id/imageView"
@@ -126,10 +128,12 @@
                             android:layout_centerHorizontal="true"
                             android:layout_marginTop="20dp"
                             android:text="submit" />
+
+
                 </RelativeLayout>
 
-        </ScrollView>
 
+</ScrollView>
 
 </RelativeLayout>
 
